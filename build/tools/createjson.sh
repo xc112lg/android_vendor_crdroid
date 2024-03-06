@@ -92,11 +92,11 @@ if [ -f $existingOTAjson ]; then
 	echo '{
 	"response": [
 		{
-			"maintainer": "'$maintainer'",
+			"maintainer": "'xc112lg'",
 			"oem": "'$oem'",
 			"device": "'$device'",
 			"filename": "'$filename'",
-			"download": "https://sourceforge.net/projects/crdroid/files/'$1'/'$v_max'.x/'$3'/download",
+			"download": "https://github.com/xc112lg/crdroid10.x/releases/download/crDroidAndroid-14.0-'$(date '+%Y%m%d')'/'$3'",
 			"timestamp": '$timestamp',
 			"md5": "'$md5'",
 			"sha256": "'$sha256'",
@@ -108,8 +108,8 @@ if [ -f $existingOTAjson ]; then
 			"firmware": "'$firmware'",
 			"modem": "'$modem'",
 			"bootloader": "'$bootloader'",
-			"recovery": "'$recovery'",
-			"paypal": "'$paypal'",
+			"recovery": "'https://github.com/xc112lg/crdroid10.x/releases/tag/crDroidAndroid-14.0-20240305'",
+			"paypal": "https://www.paypal.com/paypalme/xc112xda",
 			"telegram": "'$telegram'",
 			"dt": "'$dt'",
 			"common-dt": "'$common'",
@@ -133,11 +133,11 @@ else
 	echo '{
 	"response": [
 		{
-			"maintainer": "''",
+			"maintainer": "'xc112lg'",
 			"oem": "''",
 			"device": "''",
 			"filename": "'$filename'",
-			"download": "https://sourceforge.net/projects/crdroid/files/'$1'/'$v_max'.x/'$3'/download",
+			"download": "https://github.com/xc112lg/crdroid10.x/releases/download/crDroidAndroid-14.0-'$(date '+%Y%m%d')'/'$3'",
 			"timestamp": '$timestamp',
 			"md5": "'$md5'",
 			"sha256": "'$sha256'",
@@ -149,8 +149,8 @@ else
 			"firmware": "''",
 			"modem": "''",
 			"bootloader": "''",
-			"recovery": "''",
-			"paypal": "''",
+			"recovery": "'https://github.com/xc112lg/crdroid10.x/releases/tag/crDroidAndroid-14.0-20240305'",
+			"paypal": "https://www.paypal.com/paypalme/xc112xda",
 			"telegram": "''",
 			"dt": "''",
 			"common-dt": "''",
